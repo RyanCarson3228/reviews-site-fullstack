@@ -1,6 +1,7 @@
 package org.wecancodeit.reviewssitefullstack;
 
 import java.util.Collection;
+import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,7 +16,7 @@ public class Tag {
 	private long id;
 	private String name;
 	@ManyToMany(mappedBy = "tags")
-	private Collection<Review> reviews;
+	private Set<Review> reviews;
 
 	@SuppressWarnings("unused")
 	private Tag() {
