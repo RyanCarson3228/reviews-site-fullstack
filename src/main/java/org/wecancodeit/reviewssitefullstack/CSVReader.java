@@ -8,6 +8,9 @@ import java.util.Collection;
 import java.util.List;
 
 public class CSVReader {
+	// This class was an attempt to import Amazon reviews into the project. That
+	// endeavor has yet to be completed, but this does not affect the rest of the
+	// project as is so it's been allowed to remain.
 
 	private String filePath;
 
